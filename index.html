@@ -3,28 +3,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <style>
+        h1, h2 {
+            color: blue; 
+        }
+        p {
+            color: gold; 
+        }
+        #size {
+            font-size: 50px;
+            color: red; 
+        }
+    </style>
 </head>
 <body>
-    <h1>Puppies</h1>
+    <!-- all headers should be blue unless otherwise noted -->
+    <!-- all paragraph tags should be gold unless otherwise noted -->
+    <!-- remember specificity: use a combination of selectors: id, class, element -->
 
-    <p>This is a website all about puppies!</p>
-    <p>This site is all about our love for puppies.</p>
+    <h1>HTML & CSS Practice</h1>
 
-    <h5>Resources about puppies</h5>
-    <ul>
-        <li>
-            <a target="_blank" href="https://www.akc.org/puppies/">Ownership</a>
-        </li>
-        <li>
-            <a target="_blank" href="https://www.pawsatlanta.org/">Adopt</a>
-        </li>
-    </ul>
+    <h2>HTML</h2>
 
-    <h5>Gallery</h5>
-    <img 
-        height="250px"
-        src="https://i.pinimg.com/originals/fc/4f/ea/fc4fea9d96af9876aba6aaf77f567eee.jpg"
-        alt="dog"
-    />
+    <h2>CSS</h2>
+
+    <!-- should be red and 50px size -->
+    <h2 id="size">Javascript</h2>
+
+    <p>This text should be red</p>
+
+    <p>This is a paragraph. The font for just this paragraph should be 36px</p>
 </body>
-</html> 
+</html>
